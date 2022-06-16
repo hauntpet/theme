@@ -1,0 +1,20 @@
+{
+    "name": "hauntpet/theme",
+    "description": "The main theme package.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Lumite Studios",
+            "email": "hauntpet@lumitestudios.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HauntPet\\Theme\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
