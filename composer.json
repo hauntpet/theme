@@ -9,10 +9,23 @@
             "email": "hauntpet@lumitestudios.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/support": "^9.17"
+    },
     "autoload": {
         "psr-4": {
             "HauntPet\\Theme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HauntPet\\Theme\\ThemeServiceProvider"
+            ],
+            "aliases": {
+                "ThemeRepository": "HauntPet\\Theme\\Facades\\Repository"
+            }
         }
     },
     "minimum-stability": "dev",
