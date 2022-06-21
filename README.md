@@ -1,6 +1,12 @@
 # hauntpet/theme
+The base package used to build a custom Haunt theme.
 
 ## Documenation
+### Installation
+```bash
+composer require hauntpet/theme
+```
+
 ### Build
 ```php
 Repository::add($key, [
